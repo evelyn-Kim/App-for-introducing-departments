@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="27dp"
+        android:background="#394FDC"
+        android:text=" 미담장학회 소속 학생 "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="76dp"
+        android:background="#1358AF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="139dp"
+            android:layout_height="76dp"
+            android:layout_weight="1"
+            android:backgroundTint="#1358AF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="back"
+            android:textColor="#FFFFFF"
+            app:iconPadding="0dp" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="139dp"
+            android:layout_height="76dp"
+            android:layout_weight="1"
+            android:backgroundTint="#1358AF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="home"
+            android:textColor="#FFFFFF"
+            app:iconPadding="0dp" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="139dp"
+            android:layout_height="76dp"
+            android:backgroundTint="#1358AF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="next"
+            android:textColor="#FFFFFF"
+            app:iconPadding="0dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="112dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        app:srcCompat="@drawable/khw" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="9dp"
+        android:text="이름 : 김효원"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="9dp"
+        android:text="소속 : 봉사홍보국"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="58dp"
+        android:text="이메일 : khw0107799@naver.com"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="9dp"
+        android:text="학과 :  IT융합응용공학과"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView56"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="12dp"
+        android:text="봉사활동"
+        android:textColor="#4A4C5C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="366dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="49dp"
+        android:text="안녕하세요! 저는 미담장학회 봉사홍보국 소속 김효원이라고 합니다. 현재 IT융합응용공학과 2학년에 재학 중입니다. 1학년 때 참여했던 성지고등학교 진로박람회를 계기로 2학년 때 미담장학회 부원이 되었습니다. 앞으로 저는 나눔과 봉사를 실천하는 사람이 되고자 합니다."
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="12dp"
+        android:text="간단한 소개"
+        android:textColor="#4A4C5C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="7dp"
+        android:text="2021년 코드클럽 SW교육기부단"
+        app:layout_constraintBottom_toTopOf="@+id/textView60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="29dp"
+        android:text="2021년 성지고등학교 오픈캠퍼스"
+        app:layout_constraintBottom_toTopOf="@+id/textView61"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="7dp"
+        android:text="2020년 성지고등학교 진로박람회"
+        app:layout_constraintBottom_toTopOf="@+id/textView62"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
